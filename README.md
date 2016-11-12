@@ -2,7 +2,7 @@
 
 ## mais detalhes em:  crislanio.wordpress.com
 
-Neste projeto, será utilizado a técnica de Subida de Encosta para atacar o problema do Caxeiro Viajante. Este documento determinará o formato de entrada e saída que seu programa deve seguir e detalha a representação de estados e operadores implementados.
+Neste projeto, será utilizado a técnica de Subida de Encosta para atacar o problema do Caxeiro Viajante. Este documento determinará o formato de entrada e saída que o programa seguirá e detalha a representação de estados e operadores implementados.
 # O Problema do Caixeiro Viajante (TSP)
 ## Enunciado:
 Dado um conjunto de cidades, as distâncias entre cada par destas cidades, e uma cidade inicial, encontre o menor caminho que passa exatamente uma vez por cada cidade e retorna à cidade inicial.
@@ -37,13 +37,10 @@ O conteúdo acima indica uma entrada com 7 cidades em que as coordenadas da prim
 Para facilitar os cálculos de custos de circuitos do programa, é utilizado a entrada para calcular uma
 matriz M[i,j] das distâncias entre cada par de cidades i, j.
 
-Para a saída do seu programa base, é exibido na tela, a cada iteração do algoritmo de Subida de Encosta, a sequência de visita das cidades no estado atual e o custo total deste circuito.
+Para a saída do programa base, é exibido na tela, a cada iteração do algoritmo de Subida de Encosta, a sequência de visita das cidades no estado atual e o custo total deste circuito.
 
 # Variações da Implementação
-Utilizaremos dois critérios diferentes para o estado inicial e dois tipos de operadores para a
-vizinhança entre os estados. Você terá, então, 4 variações de implementação que deverão ser
-comparadas, mas a diferença de implementação entre estas variações é pequena e gerarão pouco
-trabalho a mais.
+Utilizaremos dois critérios diferentes para o estado inicial e dois tipos de operadores para a vizinhança entre os estados. Teremos, então, 4 variações de implementação que serão comparadas, mas a diferença de implementação entre estas variações é pequena e gerarão pouco trabalho a mais.
 
 - Estado Inicial 1: Utilize a sequência em que as cidades são fornecidas no arquivo de entrada.
 - Estado Inicial 2: Gere uma permutação aleatória das cidades fornecidas.
